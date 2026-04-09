@@ -1,0 +1,62 @@
+1️⃣ Активировать Python окружение:
+```bash
+source venv/bin/activate
+```
+
+2️⃣ Перейти в корень проекта (где `backend` и `frontend`):
+```bash
+cd /Users/nona/Downloads/Аналитика/utm_bd
+```
+
+3️⃣ Запустить **всё сразу** через npm:
+```bash
+npm run start
+```
+
+FastAPI на `http://127.0.0.1:8000`, React на `http://localhost:5173`.
+
+source ../venv/bin/activate
+source venv/bin/activate
+cd /Users/nona/Downloads/Аналитика/utm_bd
+npm run start
+
+
+cd /Users/nona/Downloads/Аналитика/utm_bd/backend
+source ../venv/bin/activate
+
+
+
+sudo lsof -i :8000
+kill 6118
+
+перенос 
+pip3 install -r requirements.txt
+
+(venv) nona@MacBook-Air-nona utm_bd %
+
+pip install fastapi[standart]
+sun@gmail.com
+
+source venv/bin/activate
+
+pip3 freeze > requirements.txt
+pip3 install sqlalchemy
+pip3 install 'pydantic[email]'
+pip3 install passlib
+pip3 uninstall bcrypt
+
+pip3 install passlib==1.7.4
+pip3 install bcrypt==4.0.1
+
+pip3 uninstall passlib
+pip3 uninstall bcrypt
+
+
+http://localhost:8000/docs
+
+добавить JWT (Auth Bearer токен) + сократитель ссылок настоящий подключить 
+отдельно адаптация на фронте 
+апи сервис бесплатно сокращает
+
+npm run frontend
+uvicorn backend.main:app  --reload
